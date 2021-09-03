@@ -4,7 +4,7 @@ spring:
 
 rocketmq:
   ## rocketmq的nameserver地址
-  name-server: 192.168.1.241:9876
+  name-server: 192.168.195.131:9876
   ## 生产者名称
   producer:
     group: producer_grp_02
