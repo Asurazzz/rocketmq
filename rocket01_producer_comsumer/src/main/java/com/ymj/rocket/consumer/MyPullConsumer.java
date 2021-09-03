@@ -20,7 +20,7 @@ public class MyPullConsumer {
         // 拉取消息的消费者实例化，同时指定消费组名称
         DefaultMQPullConsumer consumer = new DefaultMQPullConsumer("consumer_grp_01");
         // 设置nameserver的地址
-        consumer.setNamesrvAddr("192.168.1.241:9876");
+        consumer.setNamesrvAddr("192.168.195.131:9876");
 
         // 对消费者进行初始化，然后就可以消费了
         consumer.start();

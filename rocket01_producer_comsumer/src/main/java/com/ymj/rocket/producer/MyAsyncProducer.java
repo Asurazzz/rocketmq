@@ -19,7 +19,7 @@ public class MyAsyncProducer {
         DefaultMQProducer producer = new DefaultMQProducer("producer_grp_01");
 
         // 指定nameserver的地址
-        producer.setNamesrvAddr("192.168.1.241:9876");
+        producer.setNamesrvAddr("192.168.195.131:9876");
 
         // 初始化生产者
         producer.start();

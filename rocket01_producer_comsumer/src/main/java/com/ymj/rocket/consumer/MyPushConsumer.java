@@ -23,7 +23,7 @@ public class MyPushConsumer {
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("consumer_grp_02");
 
         // 指定namesever的地址
-        consumer.setNamesrvAddr("192.168.1.241:9876");
+        consumer.setNamesrvAddr("192.168.195.131:9876");
 
         // 订阅主题
         consumer.subscribe("tp_demo_02", "*");
