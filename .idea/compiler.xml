@@ -10,6 +10,7 @@
         <module name="rocket01_producer_comsumer" />
         <module name="rocket02_springboot_rocketmq_producer" />
         <module name="rocket02_springboot_rocketmq_consumer" />
+        <module name="rocket04_rocketmq_producer" />
       </profile>
     </annotationProcessing>
   </component>
