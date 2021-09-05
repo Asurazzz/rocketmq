@@ -14,6 +14,7 @@
         <module>rocket02_springboot_rocketmq_consumer</module>
         <module>rocket04_rocketmq_producer</module>
         <module>rocket05_rocketmq_consumer</module>
+        <module>rocket06_rocketmq_tag_filter</module>
     </modules>
 
 
