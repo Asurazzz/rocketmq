@@ -39,10 +39,9 @@ then
   if [ -z "$RMQ_NUMA_NODE" ] ; then
     numactl --interleave=all $JAVA ${JAVA_OPT} $@
   else
-    numactl --cpunodebind=$RMQ_NUMA_NODE --membind=$RMQ_NUMA_NODE $JAVA
-    ${JAVA_OPT} $@
+   numactl --cpunodebind=$RMQ_NUMA_NODE --membind=$RMQ_NUMA_NODE $JAVA ${JAVA_OPT} $@
   fi
 else
   $JAVA ${JAVA_OPT} --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED
-  $@
+$@
 fi
