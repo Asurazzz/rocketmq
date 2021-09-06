@@ -5,4 +5,5 @@ package com.ymj.consumer;
  * @date : 2021/9/4 13:52
  */
 public class MyConsumerTag1 {
+
 }
