@@ -12,7 +12,6 @@ import java.nio.charset.StandardCharsets;
  * @date : 2021/9/4 13:47
  */
 public class MyProducer1 {
-
     public static void main(String[] args) throws Exception{
         DefaultMQProducer producer = new DefaultMQProducer("producer_grp_06");
 
