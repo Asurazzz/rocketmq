@@ -2,9 +2,24 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="spring" />
+      <option name="name" value="spring" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="old_snapshots" />
+      <option name="name" value="old_snapshots" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="taereleases" />
+      <option name="name" value="taereleases" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -12,9 +27,59 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="raycloud_old_snapshots" />
+      <option name="name" value="raycloud_old_snapshots" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="taesnapshots" />
+      <option name="name" value="taesnapshots" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="raycloud_group" />
+      <option name="name" value="raycloud_group" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="baymax-releases" />
+      <option name="name" value="Nexus Release Repository" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="taerepository" />
+      <option name="name" value="taerepository" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="rdc-snapshots" />
+      <option name="name" value="rdc-snapshots" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="Nexus Repository" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="rdc-releases" />
+      <option name="name" value="rdc-releases" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="raycloud_old_releases" />
+      <option name="name" value="raycloud_old_releases" />
+      <option name="url" value="http://maven.superboss.cc:8082/repository/maven-public/" />
     </remote-repository>
   </component>
 </project>
