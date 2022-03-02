@@ -132,6 +132,7 @@ public class ProducerTransaction {
             System.out.println(res);
         }
         System.in.read();
+        System.out.println("AA");
     }
 
 }
