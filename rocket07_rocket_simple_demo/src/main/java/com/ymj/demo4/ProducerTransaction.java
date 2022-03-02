@@ -133,7 +133,6 @@ public class ProducerTransaction {
         }
         System.in.read();
         System.out.println("AA");
-        System.out.println("bb");
     }
 
 }
